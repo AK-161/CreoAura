@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CreoAura</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Centering the about section box */
+        .about-us-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 200px); /* Adjust height to center vertically */
+            padding: 20px; /* Add some padding */
+        }
+
+        .about-us {
+            max-width: 800px; /* Set a max width for the box */
+            width: 100%; /* Make it responsive */
+            background: #e8e8e8; /* Light background for contrast */
+            color: rgb(0, 0, 0); /* Text color */
+            padding: 40px; /* Padding inside the box */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+            text-align: center; /* Center text horizontally */
+        }
+
+        /* Override hover effect for buttons in about.html */
+        .button-metallic:hover {
+            background: linear-gradient(45deg, #d4af37, #b8860b, #ffd700, #f0e68c); /* Keep the original gradient */
+            transform: translateY(-2px); /* Optional: add a slight lift effect */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="CreoAura Logo" class="logo">
+        </div>
+        <div class="nav-links">
+            <button class="nav-button" onclick="location.href='register.html'">Register</button>
+            <button class="nav-button" onclick="location.href='services.html'">Services</button>
+            <button class="nav-button" onclick="location.href='about.html'">About Us</button>
+            <select id="language-selector" class="nav-button">
+                <option value="en">English</option>
+            </select>
+        </div>
+    </nav>
+
+    <!-- Thin Line -->
+    <hr class="divider">
+
+    <!-- About Us Section -->
+    <div class="about-us-container">
+        <section class="about-us">
+            <h2>About CreoAura</h2>
+            <p>
+                At CreoAura, we believe in transforming visions into reality. Founded in 2024, our company has been dedicated to providing top-notch services in freelancing, video editing, logo design, chatbot creation, and digital marketing. Our team consists of highly skilled professionals who are passionate about their work and committed to delivering exceptional results.
+            </p>
+            <p>
+                Our mission is to empower businesses and individuals by providing innovative solutions tailored to their unique needs. We understand that every project is different, and we take the time to listen to our clients, ensuring that we fully understand their goals and objectives. This collaborative approach allows us to create customized strategies that drive success.
+            </p>
+            <p>
+                Over the years, we have successfully completed numerous projects for clients across various industries. Our portfolio showcases our versatility and expertise, demonstrating our ability to adapt to different challenges and deliver outstanding results. Whether you are a startup looking to establish your brand or an established business seeking to enhance your online presence, CreoAura is here to help.
+            </p>
+            <p>
+                We pride ourselves on our commitment to quality, integrity, and customer satisfaction. Our team works diligently to ensure that every project is completed on time and within budget, without compromising on quality. We believe that our success is measured by the success of our clients, and we strive to build long-lasting relationships based on trust and mutual respect.
+            </p>
+            <p>
+                Thank you for considering CreoAura as your partner in success. We look forward to working with you and helping you achieve your goals.
+            </p>
+
+            <!-- Call to Action Buttons -->
+            <div class="button-container">
+                <button class="nav-button button-metallic" onclick="location.href='services.html'">Our Services</button>
+                <button class="nav-button button-metallic" onclick="location.href='register.html'">Register Now</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3 id="contact-us">Contact Us</h3>
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.whatsapp.com" target="_blank">WhatsApp</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
